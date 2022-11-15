@@ -1,0 +1,9 @@
+:root{
+    --white-background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+}
+
+
+body{
+    font-family: 'Red Rose', cursive;
+    box-sizing: border-box;
+}

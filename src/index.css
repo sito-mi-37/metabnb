@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footerheader{
+    @apply font-bold text-lg mb-4 underline lg:no-underline
+}
