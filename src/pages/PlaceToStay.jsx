@@ -5,7 +5,7 @@ import { placetostayData } from "../data";
 
 const PlaceToStay = () => {
   return (
-    <div className="my-14 text-center ">
+    <div className="my-14 mt-[7rem] text-center ">
       <ul className="grid grid-cols-4 px-10 mb-14 items-center lg:grid-cols-10 gap-4 lg:gap-2 text-[#434343] md:text-lg lg:px-10 md:mb-14">
         <li>
           <a href="#">Resturant</a>

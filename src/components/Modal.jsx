@@ -2,7 +2,7 @@ import React from 'react'
 
 const Modal = ({closeModal}) => {
   return (
-    <div className='h-full w-full fixed top-0 bg-[rgba(64,64,64,0.3)] flex justify-center items-center'>
+    <div className='h-full w-full fixed z-20 top-0 bg-[rgba(64,64,64,0.3)] flex justify-center items-center transition ease-in-out duration-500'>
         <div className='bg-white w-2/3 md:w-1/3  rounded-xl shadow-xl'>
             <div className='flex border-b mb-5 py-2 px-4 justify-between border-[#CFD8DC]'>
                  <h3 className='font-medium'>Connect Wallet</h3>

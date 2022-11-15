@@ -13,7 +13,7 @@ const MetabnbNfts = () => {
             <Button className='bg-gradient-to-t from-[#FFFFFF] to-[#FFFFFF] text-color1 px-5'>Learn more</Button>
         </div>
         <div className=' flex justify-center items-center lg-pr-10'>
-            <img className='h-[80%] lg:h-[90%] w-[] md:h-[70%]' src="Frame3in1.png" alt="" />
+            <img className='h-[65%] lg:h-[80%]  md:h-[70%]' src="Frame3in1.png" alt="" />
         </div>
     </div>
   )

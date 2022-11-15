@@ -14,20 +14,20 @@ const Nav = () => {
 
   return (
     <>
-    <div className='grid grid-cols-2 lg:grid-cols-3  py-4 px-9 lg:px-14 '>
+    <div className='grid grid-cols-2 lg:grid-cols-3 z-20 bg-white shadow  fixed top-0 w-full py-4 px-5  lg:px-14 items-center'>
         <div className='col-span-1'>
-            <img className='h-7 w-25' src="metabnblogo.png" alt="logo" />
+           <a href="/"> <img className='h-7 w-25' src="metabnblogo.png" alt="logo" /></a>
         </div>
-        <div  className={` absolute top-16 right-2 bg-white border p-4 rounded shadow-md ${menu ? "block" : "hidden"} col-span-2  lg:static lg:bg-auto lg:border-0 lg:p-0 lg:shadow-none lg:flex justify-between align-middle`}>
+        <div  className={` absolute top-16 right-2 w-2/3 lg:w-full  bg-white border p-4 rounded shadow-md ${menu ? "block" : "hidden"} col-span-2  lg:static lg:bg-auto lg:border-0 lg:p-0 lg:shadow-none lg:flex justify-between items-center`}>
             <ul onClick={() => setOpenModal(false)} className='    lg:flex gap-7 font-medium'>
-                <li className='mb-2'><a href='/'> Home </a></li>
-                <li className='mb-2'>
+                <li className='mb-5'><a href='/'> Home </a></li>
+                <li className='mb-5'>
                     <a href="placetostay"> Place to stay</a>
                 </li>
-                <li className='mb-2'>
+                <li className='mb-5'>
                     <a href="nfts">NFTs</a>
                 </li>
-                <li className='mb-2'>
+                <li className='mb-5'>
                     <a href="community">Community</a>
                 </li>
             </ul>
