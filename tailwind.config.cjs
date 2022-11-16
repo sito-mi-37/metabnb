@@ -17,12 +17,12 @@ module.exports = {
         redrose: 'Red Rose'
       }
     },
-    // screens:{
-    //   sm: "640px",
-    //   md: "768px",
-    //   lg: "1023px",
-    //   xl: "1280px"
-    // }
+    screens:{
+      sm: "400px",
+      md: "768px",
+      lg: "1023px",
+      xl: "1280px"
+    }
   },
   plugins: [],
 }

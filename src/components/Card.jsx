@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = ({src, name, price, distance, time}) => {
   return (
-    <div className='border  border-[#D7D7D7] w-[17rem] h-[22rem] md:w-[16rem] rounded-2xl flex flex-col items-center py-3 mx-9'>
+    <div className='border bg-[#fafcfc]  border-[#D7D7D7] w-[17rem] h-[22rem] md:w-[16.5rem] rounded-2xl flex flex-col items-center py-3 mx-9'>
         <div className=' w-[15rem] h-[16rem] md:w-[14rem] relative rounded-2xl overflow-hidden'>
             <img className=' ' src={src} alt="" />
             <div className='absolute top-[8.8px] right-[8.5px] '>
